@@ -275,8 +275,8 @@
 				<top>180</top>
 				<width>60</width>
 				<height>60</height>
-				<font>font30</font>
-				<label>&lt;</label>
+				<font>font13</font>
+				<label>31976</label>
 				<focusedcolor>black</focusedcolor>
 				<align>center</align>
 				<aligny>center</aligny>
@@ -311,8 +311,8 @@
 				<top>180</top>
 				<width>60</width>
 				<height>60</height>
-				<font>font30</font>
-				<label>&gt;</label>
+				<font>font13</font>
+				<label>31977</label>
 				<focusedcolor>black</focusedcolor>
 				<align>center</align>
 				<aligny>center</aligny>

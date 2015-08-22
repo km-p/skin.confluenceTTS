@@ -529,12 +529,12 @@
 						<description>previous button</description>
 						<width>100</width>
 						<height>50</height>
-						<label>&lt;</label>
+						<label>31976</label>
 						<align>center</align>
 						<aligny>center</aligny>
 						<texturenofocus border="3">KeyboardKeyNF.png</texturenofocus>
 						<texturefocus border="5">KeyboardKey.png</texturefocus>
-						<font>font30</font>
+						<font>font13</font>
 						<focusedcolor>black</focusedcolor>
 						<onup>168</onup>
 						<ondown>108</ondown>
@@ -543,12 +543,12 @@
 						<description>next button</description>
 						<width>100</width>
 						<height>50</height>
-						<label>&gt;</label>
+						<label>31977</label>
 						<align>center</align>
 						<aligny>center</aligny>
 						<texturenofocus flipx="true" border="5,5,25,25">KeyboardCornerBottomNF.png</texturenofocus>
 						<texturefocus flipx="true" border="5,5,25,25">KeyboardCornerBottom.png</texturefocus>
-						<font>font30</font>
+						<font>font13</font>
 						<focusedcolor>black</focusedcolor>
 						<onup>170</onup>
 						<ondown>110</ondown>
