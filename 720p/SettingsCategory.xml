@@ -76,6 +76,7 @@
 				<onup>3</onup>
 				<ondown>20</ondown>
 			</control>
+			<!--
 			<control type="button" id="20">
 				<description>Setting level button</description>
 				<left>10</left>
@@ -99,6 +100,8 @@
 				<ondown>3</ondown>
 				<onclick>SettingsLevelChange</onclick>
 			</control>
+			-->
+			<!--
 			<control type="label">
 				<left>20</left>
 				<top>566</top>
@@ -110,6 +113,7 @@
 				<align>right</align> 
 				<aligny>center</aligny>
 			</control>
+			-->
 			<control type="image">
 				<left>268</left>
 				<top>10</top>

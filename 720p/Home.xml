@@ -86,6 +86,7 @@
 			</control>
 		</control>
 		<!-- LiveTV Info -->
+		<!--
 		<control type="group">
 			<left>490r</left>
 			<top>70</top>
@@ -229,6 +230,7 @@
 				</control>
 			</control>
 		</control>
+		-->
 		<!-- Video Info -->
 		<control type="group">
 			<left>0</left>
@@ -527,7 +529,7 @@
 						<top>2</top>
 						<width>30</width>
 						<height>30</height>
-						<label>-Previous</label>
+						<label>31963</label>
 						<texturefocus>OSDPrevTrackFO.png</texturefocus>
 						<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
 						<onleft>608</onleft>
@@ -541,7 +543,7 @@
 						<top>2</top>
 						<width>30</width>
 						<height>30</height>
-						<label>-Rewind</label>
+						<label>31964</label>
 						<texturefocus>OSDRewindFO.png</texturefocus>
 						<texturenofocus>OSDRewindNF.png</texturenofocus>
 						<onleft>601</onleft>
@@ -555,13 +557,13 @@
 						<top>2</top>
 						<width>30</width>
 						<height>30</height>
-						<label>-Pause</label>
+						<label>31965</label>
 						<texturefocus>OSDPauseFO.png</texturefocus>
 						<texturenofocus>OSDPauseNF.png</texturenofocus>
 						<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 						<alttexturefocus>OSDPlayFO.png</alttexturefocus>
 						<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
-						<altlabel>-Play</altlabel>
+						<altlabel>31966</altlabel>
 						<onleft>602</onleft>
 						<onright>604</onright>
 						<onup>9003</onup>
@@ -573,7 +575,7 @@
 						<top>2</top>
 						<width>30</width>
 						<height>30</height>
-						<label>-Stop</label>
+						<label>31967</label>
 						<texturefocus>OSDStopFO.png</texturefocus>
 						<texturenofocus>OSDStopNF.png</texturenofocus>
 						<onleft>603</onleft>
@@ -588,7 +590,7 @@
 						<top>2</top>
 						<width>30</width>
 						<height>30</height>
-						<label>-Forward</label>
+						<label>31968</label>
 						<texturefocus>OSDForwardFO.png</texturefocus>
 						<texturenofocus>OSDForwardNF.png</texturenofocus>
 						<onleft>604</onleft>
@@ -602,7 +604,7 @@
 						<top>2</top>
 						<width>30</width>
 						<height>30</height>
-						<label>-Next</label>
+						<label>31969</label>
 						<texturefocus>OSDNextTrackFO.png</texturefocus>
 						<texturenofocus>OSDNextTrackNF.png</texturenofocus>
 						<onleft>605</onleft>
@@ -732,6 +734,7 @@
 				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300"/>
 				<effect type="fade" start="100" end="0" time="300"/>
 			</animation>
+			<!--
 			<control type="group" id="9001">
 				<left>0</left>
 				<top>70</top>
@@ -742,65 +745,68 @@
 					<onleft>9010</onleft>
 					<onright>9010</onright>
 					<visible>Container(9000).HasFocus(2)</visible>
-					<include>HomeSubMenuVideos</include> <!-- Buttons for the grouplist -->
+					<include>HomeSubMenuVideos</include> <!-- Buttons for the grouplist --
 				</control>
 				<control type="grouplist" id="9016">
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9016</onleft>
 					<onright>9016</onright>
 					<visible>Container(9000).HasFocus(10)</visible>
-					<include>HomeSubMenuMovies</include> <!-- Buttons for the grouplist -->
+					<include>HomeSubMenuMovies</include> <!-- Buttons for the grouplist --
 				</control>
 				<control type="grouplist" id="9017">
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9017</onleft>
 					<onright>9017</onright>
 					<visible>Container(9000).HasFocus(11)</visible>
-					<include>HomeSubMenuTVShows</include> <!-- Buttons for the grouplist -->
+					<include>HomeSubMenuTVShows</include> <!-- Buttons for the grouplist --
 				</control>
+				<!--
 				<control type="grouplist" id="9011">
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9011</onleft>
 					<onright>9011</onright>
 					<visible>Container(9000).HasFocus(3)</visible>
-					<include>HomeSubMenuMusic</include> <!-- Buttons for the grouplist -->
+					<include>HomeSubMenuMusic</include> <!-- Buttons for the grouplist --
 				</control>
+				--
 				<control type="grouplist" id="9012">
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9012</onleft>
 					<onright>9012</onright>
 					<visible>Container(9000).HasFocus(5)</visible>
-					<include>HomeSubMenuSystem</include> <!-- Buttons for the grouplist -->
+					<include>HomeSubMenuSystem</include> <!-- Buttons for the grouplist --
 				</control>
 				<control type="grouplist" id="9013">
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9013</onleft>
 					<onright>9013</onright>
 					<visible>Container(9000).HasFocus(6)</visible>
-					<include>HomeSubMenuPlayDisc</include> <!-- Buttons for the grouplist -->
+					<include>HomeSubMenuPlayDisc</include> <!-- Buttons for the grouplist --
 				</control>
 				<control type="grouplist" id="9014">
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9014</onleft>
 					<onright>9014</onright>
 					<visible>Container(9000).HasFocus(12)</visible>
-					<include>HomeSubMenuTV</include> <!-- Buttons for the grouplist -->
+					<include>HomeSubMenuTV</include> <!-- Buttons for the grouplist --
 				</control>
 				<control type="grouplist" id="9015">
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9013</onleft>
 					<onright>9013</onright>
 					<visible>Container(9000).HasFocus(4)</visible>
-					<include>HomeSubMenuPictures</include> <!-- Buttons for the grouplist -->
+					<include>HomeSubMenuPictures</include> <!-- Buttons for the grouplist --
 				</control>
 				<control type="grouplist" id="9016">
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9014</onleft>
 					<onright>9014</onright>
 					<visible>Container(9000).HasFocus(13)</visible>
-					<include>HomeSubMenuRadio</include> <!-- Buttons for the grouplist -->
+					<include>HomeSubMenuRadio</include> <!-- Buttons for the grouplist --
 				</control>
 			</control>
+			-->
 			<control type="image">
 				<left>-100</left>
 				<top>0</top>
@@ -830,7 +836,7 @@
 				<focusposition>2</focusposition>
 				<movement>1</movement>
 				<orientation>Horizontal</orientation>
-				<itemlayout height="60" width="300">
+				<itemlayout height="60" width="330">
 					<control type="image">
 						<left>0</left>
 						<top>4</top>
@@ -839,7 +845,7 @@
 						<texture>HomeSeperator.png</texture>
 					</control>
 					<control type="image">
-						<left>299</left>
+						<left>329</left>
 						<top>4</top>
 						<width>1</width>
 						<height>52</height>
@@ -848,7 +854,7 @@
 					<control type="label">
 						<left>5</left>
 						<top>0</top>
-						<width>290</width>
+						<width>320</width>
 						<height>60</height>
 						<font>font_MainMenu</font>
 						<textcolor>grey3</textcolor>
@@ -857,7 +863,7 @@
 						<label>$INFO[ListItem.Label]</label>
 					</control>
 				</itemlayout>
-				<focusedlayout height="60" width="300">
+				<focusedlayout height="60" width="330">
 					<control type="image">
 						<left>0</left>
 						<top>4</top>
@@ -866,7 +872,7 @@
 						<texture>HomeSeperator.png</texture>
 					</control>
 					<control type="image">
-						<left>299</left>
+						<left>329</left>
 						<top>4</top>
 						<width>1</width>
 						<height>52</height>
@@ -875,7 +881,7 @@
 					<control type="label">
 						<left>5</left>
 						<top>0</top>
-						<width>290</width>
+						<width>320</width>
 						<height>60</height>
 						<font>font_MainMenu</font>
 						<textcolor>grey3</textcolor>
@@ -886,7 +892,7 @@
 					<control type="label">
 						<left>5</left>
 						<top>0</top>
-						<width>290</width>
+						<width>320</width>
 						<height>60</height>
 						<font>font_MainMenu</font>
 						<textcolor>blue</textcolor>
@@ -898,6 +904,7 @@
 					</control>
 				</focusedlayout>
 				<content>
+					<!--
 					<item id="7">
 						<label>31950</label>
 						<onclick>ActivateWindow(Weather)</onclick>
@@ -905,6 +912,7 @@
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoWeatherButton) + !IsEmpty(Weather.Plugin)</visible>
 					</item>
+					-->
 					<item id="4">
 						<label>31951</label>
 						<onclick>ActivateWindow(Pictures)</onclick>
@@ -912,6 +920,7 @@
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoPicturesButton)</visible>
 					</item>
+					<!--
 					<item id="13">
 						<label>31960</label>
 						<onclick>ActivateWindow(RadioChannels)</onclick>
@@ -919,6 +928,8 @@
 						<thumb>-</thumb>
 						<visible>PVR.HasRadioChannels</visible>
 					</item>
+					-->
+					<!--
 					<item id="12">
 						<label>31952</label>
 						<onclick>ActivateWindow(TVChannels)</onclick>
@@ -926,10 +937,14 @@
 						<thumb>-</thumb>
 						<visible>PVR.HasTVChannels</visible>
 					</item>
+					-->
 					<item id="2">
 						<label>31953</label>
+						<!--
 						<onclick condition="StringCompare(Window.Property(VideosDirectLink),True)">ActivateWindow(Videos)</onclick>
 						<onclick condition="!StringCompare(Window.Property(VideosDirectLink),True)">ActivateWindow(Videos,root)</onclick>
+						-->
+						<onclick>ActivateWindow(Videos,Files,return)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoVideosButton)</visible>
@@ -941,6 +956,7 @@
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoMovieButton) + Library.HasContent(Movies)</visible>
 					</item>
+					<!--
 					<item id="11">
 						<label>31955</label>
 						<onclick>ActivateWindow(Videos,TVShowTitles,return)</onclick>
@@ -948,6 +964,7 @@
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoTVShowButton) + Library.HasContent(TVShows)</visible>
 					</item>
+					-->
 					<item id="3">
 						<label>31956</label>
 						<onclick>ActivateWindow(Music)</onclick>
@@ -955,6 +972,7 @@
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
 					</item>
+					<!--
 					<item id="1">
 						<label>31957</label>
 						<onclick condition="!System.Platform.Android">ActivateWindow(Programs,Addons,return)</onclick>
@@ -963,6 +981,7 @@
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoProgramsButton)</visible>
 					</item>
+					-->
 					<item id="6">
 						<label>31958</label>
 						<onclick>PlayDVD()</onclick>
@@ -970,9 +989,29 @@
 						<thumb>-</thumb>
 						<visible>System.HasMediaDVD</visible>
 					</item>
+					<!--
 					<item id="5">
 						<label>31959</label>
 						<onclick>ActivateWindow(Settings)</onclick>
+						<icon>-</icon>
+						<thumb>-</thumb>
+					</item>
+					-->
+					<item id="81">
+						<label>31961</label>
+						<onclick>ActivateWindow(Settings)</onclick>
+						<icon>-</icon>
+						<thumb>-</thumb>
+					</item>
+					<item id="82">
+						<label>31962</label>
+						<onclick>ActivateWindow(SystemInfo)</onclick>
+						<icon>-</icon>
+						<thumb>-</thumb>
+					</item>
+					<item id="99">
+						<label>31003</label>
+						<onclick>ActivateWindow(ShutdownMenu)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>
 					</item>
@@ -1008,6 +1047,7 @@
 					<include>HomeAddonItemsVideos</include>
 				</content>
 			</control>
+			<!--
 			<control type="fixedlist" id="703">
 				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="StringCompare(Container(703).NumItems,2) | StringCompare(Container(703).NumItems,4)">conditional</animation>
 				<visible>Container(9000).HasFocus(3)</visible>
@@ -1020,6 +1060,7 @@
 					<include>HomeAddonItemsMusic</include>
 				</content>
 			</control>
+			-->
 			<control type="fixedlist" id="704">
 				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="StringCompare(Container(704).NumItems,2) | StringCompare(Container(704).NumItems,4)">conditional</animation>
 				<visible>Container(9000).HasFocus(4)</visible>
@@ -1071,6 +1112,7 @@
 				<texture>icon-rss.png</texture>
 			</control>
 		</control>
+		<!--
 		<control type="group" id="10">
 			<left>20</left>
 			<top>55r</top>
@@ -1126,6 +1168,8 @@
 				<texture>icon_favourites.png</texture>
 			</control>
 		</control>
+		-->
+		<!--
 		<control type="group">
 			<left>20</left>
 			<top>0</top>
@@ -1195,6 +1239,7 @@
 				</control>
 			</control>
 		</control>
+		-->
 		<include>Clock</include>
 		<control type="label">
 			<description>Date label</description>

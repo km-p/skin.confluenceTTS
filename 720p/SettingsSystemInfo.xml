@@ -87,6 +87,7 @@
 					<pulseonselect>false</pulseonselect>
 					<label>20037</label>
 				</control>
+				<!--
 				<control type="button" id="94">
 					<description>Button Storage</description>
 					<height>60</height>
@@ -102,6 +103,7 @@
 					<pulseonselect>false</pulseonselect>
 					<label>13277</label>
 				</control>
+				-->
 				<control type="button" id="96">
 					<description>Button Network</description>
 					<height>60</height>
@@ -147,6 +149,7 @@
 					<pulseonselect>false</pulseonselect>
 					<label>13281</label>
 				</control>
+				<!--
 				<control type="button" id="99">
 					<description>Button PVR</description>
 					<height>60</height>
@@ -162,6 +165,7 @@
 					<pulseonselect>false</pulseonselect>
 					<label>19191</label>
 				</control>
+				-->
 			</control>
 			<control type="image">
 				<left>268</left>

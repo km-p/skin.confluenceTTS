@@ -636,7 +636,7 @@
 				<top>2</top>
 				<width>39</width>
 				<height>39</height>
-				<label>-</label>
+				<label>31967</label>
 				<texturefocus>OSDStopFO.png</texturefocus>
 				<texturenofocus>OSDStopNF.png</texturenofocus>
 				<onleft>601</onleft>
@@ -651,12 +651,13 @@
 				<top>2</top>
 				<width>39</width>
 				<height>39</height>
-				<label>-</label>
+				<label>31965</label>
 				<texturefocus>OSDPauseFO.png</texturefocus>
 				<texturenofocus>OSDPauseNF.png</texturenofocus>
 				<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 				<alttexturefocus>OSDPlayFO.png</alttexturefocus>
 				<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
+				<altlabel>31966</altlabel>
 				<onleft>603</onleft>
 				<onright>605</onright>
 				<onup>610</onup>
@@ -695,7 +696,7 @@
 				<top>2</top>
 				<width>39</width>
 				<height>39</height>
-				<label>-</label>
+				<label>31963</label>
 				<texturefocus>OSDPrevTrackFO.png</texturefocus>
 				<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
 				<onleft>50</onleft>
@@ -710,7 +711,7 @@
 				<top>2</top>
 				<width>39</width>
 				<height>39</height>
-				<label>-</label>
+				<label>31964</label>
 				<texturefocus>OSDRewindFO.png</texturefocus>
 				<texturenofocus>OSDRewindNF.png</texturenofocus>
 				<onleft>600</onleft>
@@ -728,12 +729,13 @@
 					<top>2</top>
 					<width>39</width>
 					<height>39</height>
-					<label>-</label>
+					<label>31965</label>
 					<texturefocus>OSDPauseFO.png</texturefocus>
 					<texturenofocus>OSDPauseNF.png</texturenofocus>
 					<usealttexture>Player.Paused | Player.Forwarding | Player.Rewinding</usealttexture>
 					<alttexturefocus>OSDPlayFO.png</alttexturefocus>
 					<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
+					<altlabel>31966</altlabel>
 					<onleft>606</onleft>
 					<onright>601</onright>
 					<onup>610</onup>
@@ -746,7 +748,7 @@
 					<top>2</top>
 					<width>39</width>
 					<height>39</height>
-					<label>-</label>
+					<label>31967</label>
 					<texturefocus>OSDStopFO.png</texturefocus>
 					<texturenofocus>OSDStopNF.png</texturenofocus>
 					<onleft>603</onleft>
@@ -762,7 +764,7 @@
 					<top>2</top>
 					<width>39</width>
 					<height>39</height>
-					<label>-</label>
+					<label>31968</label>
 					<texturefocus>OSDForwardFO.png</texturefocus>
 					<texturenofocus>OSDForwardNF.png</texturenofocus>
 					<onleft>601</onleft>
@@ -778,7 +780,7 @@
 					<top>2</top>
 					<width>39</width>
 					<height>39</height>
-					<label>-</label>
+					<label>31969</label>
 					<texturefocus>OSDNextTrackFO.png</texturefocus>
 					<texturenofocus>OSDNextTrackNF.png</texturenofocus>
 					<onleft>607</onleft>
@@ -797,7 +799,7 @@
 					<top>2</top>
 					<width>39</width>
 					<height>39</height>
-					<label>-</label>
+					<label>31974</label>
 					<texturefocus>-</texturefocus>
 					<texturenofocus>-</texturenofocus>
 					<onclick>PlayerControl(Repeat)</onclick>
@@ -866,7 +868,7 @@
 					<top>2</top>
 					<width>39</width>
 					<height>39</height>
-					<label>-</label>
+					<label>31975</label>
 					<texturefocus>OSDRandomOffFO.png</texturefocus>
 					<texturenofocus>OSDRandomOffNF.png</texturenofocus>
 					<usealttexture>Playlist.IsRandom</usealttexture>

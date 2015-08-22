@@ -2,6 +2,9 @@
 # Addon Name: Confluence
 # Addon id: skin.confluence
 # Addon Provider: Jezz_X, Team Kodi
+#
+# 201507 mae added several localized strings for confluenceTTS
+
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -22,7 +25,7 @@ msgstr "Ändern der"
 
 msgctxt "#31003"
 msgid "Power Options"
-msgstr "Energieeinstellungen"
+msgstr "BEENDEN"
 
 msgctxt "#31004"
 msgid "Working..."
@@ -611,3 +614,73 @@ msgstr "OPTIONEN"
 msgctxt "#31960"
 msgid "RADIO"
 msgstr "RADIO"
+
+msgctxt "#31961"
+msgid "SETTINGS"
+msgstr "EINSTELLUNGEN"
+
+msgctxt "#31962"
+msgid "SYSTEMINFO"
+msgstr "SYSTEMINFO"
+
+msgctxt "#31963"
+msgid "-Previous"
+msgstr "-Voriger"
+
+msgctxt "#31964"
+msgid "-Rewind"
+msgstr "-Rücklauf"
+
+msgctxt "#31965"
+msgid "-Pause"
+msgstr "-Pause"
+
+msgctxt "#31966"
+msgid "-Play"
+msgstr "-Abspielen"
+
+msgctxt "#31967"
+msgid "-Stop"
+msgstr "-Stopp"
+
+msgctxt "#31968"
+msgid "-Forward"
+msgstr "-Vorlauf"
+
+msgctxt "#31969"
+msgid "-Next"
+msgstr "-Nächster"
+
+msgctxt "#31970"
+msgid "Network"
+msgstr "Netzwerk"
+
+msgctxt "#31971"
+msgid "[B]CONFIGURE NETWORK SETTINGS[/B][CR][CR]Change network settings"
+msgstr "[B]KONFIGURIERE NETZWERKEINSTELLUNGEN[/B][CR][CR]Ändern der Netzwerkeinstellungen"
+
+msgctxt "#31972"
+msgid "Screen Reader"
+msgstr "Screen Reader"
+
+msgctxt "#31973"
+msgid "[B]CONFIGURE SCREEN READER[/B][CR][CR]Change screen reader settings"
+msgstr "[B]KONFIGURIERE SCREEN READER[/B][CR][CR]Anpassen, Ändern der Einstellungen für den Screen Reader"
+
+msgctxt "#31974"
+msgid "-Repeat"
+msgstr "-Wiederholung"
+
+msgctxt "#31975"
+msgid "-Shuffle"
+msgstr "-Zufällig"
+
+msgctxt "#31976"
+msgid "Left"
+msgstr "Links"
+
+msgctxt "#31977"
+msgid "Right"
+msgstr "Rechts"
+
+

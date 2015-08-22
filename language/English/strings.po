@@ -2,6 +2,9 @@
 # Addon Name: Confluence
 # Addon id: skin.confluence
 # Addon Provider: Jezz_X, Team Kodi
+#
+# 201507 mae added several localized strings for confluenceTTS
+
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -696,4 +699,64 @@ msgstr ""
 
 msgctxt "#31960"
 msgid "RADIO"
+msgstr ""
+
+msgctxt "#31961"
+msgid "SETTINGS"
+msgstr ""
+
+msgctxt "#31962"
+msgid "SYSTEMINFO"
+msgstr ""
+
+msgctxt "#31963"
+msgid "-Previous"
+msgstr ""
+
+msgctxt "#31964"
+msgid "-Rewind"
+msgstr ""
+
+msgctxt "#31965"
+msgid "-Pause"
+msgstr ""
+
+msgctxt "#31966"
+msgid "-Play"
+msgstr ""
+
+msgctxt "#31967"
+msgid "-Stop"
+msgstr ""
+
+msgctxt "#31968"
+msgid "-Forward"
+msgstr ""
+
+msgctxt "#31969"
+msgid "-Next"
+msgstr ""
+
+msgctxt "#31970"
+msgid "Network"
+msgstr ""
+
+msgctxt "#31971"
+msgid "[B]CONFIGURE NETWORK SETTINGS[/B][CR][CR]Change network settings"
+msgstr ""
+
+msgctxt "#31972"
+msgid "Screen Reader"
+msgstr ""
+
+msgctxt "#31973"
+msgid "[B]CONFIGURE SCREEN READER[/B][CR][CR]Change screen reader settings"
+msgstr ""
+
+msgctxt "#31974"
+msgid "-Repeat"
+msgstr ""
+
+msgctxt "#31975"
+msgid "-Shuffle"
 msgstr ""

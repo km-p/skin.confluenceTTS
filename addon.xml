@@ -3,7 +3,7 @@
   id="skin.confluenceTTS"
   version="2.5.12"
   name="ConfluenceTTS"
-  provider-name="based on Jezz_X, Team Kodi">
+  provider-name="based on Skin 'Confluence' by Jezz_X, Team Kodi; extended by km-p">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
   </requires>

@@ -190,16 +190,20 @@
 			<label>5</label>
 			<onclick>ActivateWindow(Settings)</onclick>
 		</control>
+		<!--
 		<control type="button" id="90123">
 			<include>ButtonHomeSubCommonValues</include>
 			<label>7</label>
 			<onclick>ActivateWindow(FileManager)</onclick>
 		</control>
+		-->
+		<!--
 		<control type="button" id="90124">
 			<include>ButtonHomeSubCommonValues</include>
 			<label>13200</label>
 			<onclick>ActivateWindow(Profiles)</onclick>
 		</control>
+		-->
 		<control type="button" id="90125">
 			<include>ButtonHomeSubCommonValues</include>
 			<label>130</label>
